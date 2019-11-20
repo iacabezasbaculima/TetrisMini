@@ -1,13 +1,13 @@
 # TetrisMini
 
-MiniTETRIS is primarily a classic version of the famous game TETRIS created by Aleksey Pajitnov and it was developed in C# using WPF. Currently, it provides all basic game mechanics including score, level and lines completed.
+TetrisMini is primarily a classic version of the famous game TETRIS created by Aleksey Pajitnov and it was developed in C# using WPF. Currently, it provides all basic game mechanics including score, level and lines completed.
 
 ## Getting Started
-Visual Studio 2017 or 2019 is recommended, MiniTETRIS is officially untested on other development environments.
+Visual Studio 2017 or 2019 is recommended, TetrisMini is officially untested on other development environments.
 
 You can clone the repository to a local destination using git:
 
-`git clone --recursive https://github.com/ibaculimasparta/MiniTETRIS.git`
+`git clone --recursive https://github.com/iacabezasbaculima/TetrisMini.git`
 
 Make sure that you do a `--recursive` clone to fetch all of the submodules.
 
