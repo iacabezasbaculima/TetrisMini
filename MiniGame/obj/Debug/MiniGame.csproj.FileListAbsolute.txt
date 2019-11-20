@@ -26,3 +26,31 @@ C:\Users\Isaac Baculima\Engineering45\Week4\Project 1\MiniGame\MiniGame\obj\Debu
 C:\Users\Isaac Baculima\Engineering45\Week4\Project 1\MiniGame\MiniGame\obj\Debug\MiniGame.csproj.CopyComplete
 C:\Users\Isaac Baculima\Engineering45\Week4\Project 1\MiniGame\MiniGame\obj\Debug\MiniGame.exe
 C:\Users\Isaac Baculima\Engineering45\Week4\Project 1\MiniGame\MiniGame\obj\Debug\MiniGame.pdb
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\resources\sounds\tetriestheme.wav
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\MiniGame.exe.config
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\MiniGame.exe
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\MiniGame.pdb
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\EntityFramework.dll
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\EntityFramework.xml
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame.csprojAssemblyReference.cache
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\LoseWindow.g.cs
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MainWindow.g.cs
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\ScoreboardWindow.g.cs
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\StartWindow.g.cs
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\App.g.cs
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame_Content.g.cs
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame_MarkupCompile.cache
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame_MarkupCompile.lref
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\App.baml
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\LoseWindow.baml
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MainWindow.baml
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\ScoreboardWindow.baml
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\StartWindow.baml
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame.g.resources
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame.Properties.Resources.resources
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame.csproj.GenerateResource.cache
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame.csproj.CopyComplete
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame.exe
+C:\Users\Isaac Baculima\Engineering45\TetrisMini\MiniGame\obj\Debug\MiniGame.pdb
