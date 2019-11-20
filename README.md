@@ -1,6 +1,6 @@
-# MiniTETRIS
+# TetrisMini
 
-MiniTETRIS is primarily a classic version of the famous game TETRIS created by Aleksey Pajitnov. Currently, it provides all basic game mechanics including score, level and lines completed.
+MiniTETRIS is primarily a classic version of the famous game TETRIS created by Aleksey Pajitnov and it was developed in C# using WPF. Currently, it provides all basic game mechanics including score, level and lines completed.
 
 ## Getting Started
 Visual Studio 2017 or 2019 is recommended, MiniTETRIS is officially untested on other development environments.
