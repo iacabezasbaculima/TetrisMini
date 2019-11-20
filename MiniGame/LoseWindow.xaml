@@ -1,0 +1,35 @@
+﻿<Window x:Class="MiniGame.LoseWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniGame"
+        mc:Ignorable="d"
+        Title="LoseWindow" Height="700" Width="525"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid Background="{StaticResource Tetris1}">
+        <!-- Lose Message -->
+        <StackPanel Margin="80" x:Name="Panel_Lose" Visibility="Collapsed" Orientation="Vertical">
+            <TextBlock Margin="0 10" Text="YOU LOST!" Foreground="White" FontWeight="ExtraBold" HorizontalAlignment="Center"/>
+            <TextBlock Text="Total Score: " FontWeight="ExtraBold" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Margin=" 0 5" x:Name="tbScore" Text="Score" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+            <TextBlock Text="Total Lines:" FontWeight="ExtraBold" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Margin="0 5" x:Name="tbLines" Text="Lines" Foreground="White" FontWeight="Bold" HorizontalAlignment="Center"/>
+        </StackPanel>
+        <!-- Buttons -->
+        <StackPanel x:Name="Panel_Buttons" Margin="200" Visibility="Collapsed">
+            <Button  Margin="0 10" x:Name="RestartButton" Click="RestartButton_Click" Content="TRY AGAIN" HorizontalAlignment="Center" Width="100" Style="{StaticResource btnSparta}"/>
+            <Button  Margin="0 10"  x:Name="MenuButton" Click="MenuButton_Click" Content="START MENU" Width="100" Style="{StaticResource btnSparta}"/>
+            <Button Margin="0 10" Name="QuitButton" Click="QuitButton_Click" Content="QUIT" HorizontalAlignment="Center" Width="100" Style="{StaticResource btnSparta}"/>
+        </StackPanel>
+        <!-- Submit Highscore -->
+        <StackPanel Margin="0 200" x:Name="Panel_NewHighScore" Visibility="Collapsed">
+            <TextBlock Name="Message" HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" FontWeight="Bold" Height="121" Width="371" TextAlignment="Center" FontSize="20">
+                NEW HIGHSCORE! You made it into the Tetris highscore list! Please enter a name below...
+            </TextBlock>
+            <TextBox Margin="0 10" x:Name="tbxInput" HorizontalAlignment="Center" Width="200" Padding="2" />
+            <Button Name="SubmitButton" Click="SubmitButton_Click" Content="SUBMIT SCORE" HorizontalAlignment="Center" Width="100" Style="{StaticResource btnSparta}"/>
+        </StackPanel>
+    </Grid>
+</Window>

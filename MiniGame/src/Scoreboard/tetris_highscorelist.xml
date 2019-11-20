@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ArrayOfTetrisHighScore xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TetrisHighScore>
+    <PlayerName>Aleksei</PlayerName>
+    <PlayerScore>5850</PlayerScore>
+    <PlayerLines>39</PlayerLines>
+  </TetrisHighScore>
+  <TetrisHighScore>
+    <PlayerName>test</PlayerName>
+    <PlayerScore>150</PlayerScore>
+    <PlayerLines>1</PlayerLines>
+  </TetrisHighScore>
+  <TetrisHighScore>
+    <PlayerName>Maxwell</PlayerName>
+    <PlayerScore>5400</PlayerScore>
+    <PlayerLines>36</PlayerLines>
+  </TetrisHighScore>
+  <TetrisHighScore>
+    <PlayerName>Matthew</PlayerName>
+    <PlayerScore>3750</PlayerScore>
+    <PlayerLines>25</PlayerLines>
+  </TetrisHighScore>
+  <TetrisHighScore>
+    <PlayerName>Vladimir</PlayerName>
+    <PlayerScore>1350</PlayerScore>
+    <PlayerLines>9</PlayerLines>
+  </TetrisHighScore>
+</ArrayOfTetrisHighScore>

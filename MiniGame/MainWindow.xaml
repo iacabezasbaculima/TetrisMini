@@ -1,0 +1,104 @@
+﻿<Window x:Class="MiniGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniGame"
+        mc:Ignorable="d"
+        KeyDown="Window_KeyDown"
+        Title="MainWindow" Height="700" Width="525" Background="Black"
+        WindowStartupLocation="CenterScreen"
+        Initialized="Window_Initialized" WindowStyle="None" >
+    <DockPanel LastChildFill="True" Background="{DynamicResource Tetris1}">
+        <!-- Highscore, Lines, Help -->
+        <StackPanel DockPanel.Dock="Right" Height="650" Width="200" Margin="0,0,5,0">
+
+            <Label Content="SCORE" Style="{StaticResource lbSparta}"/>
+            <TextBlock x:Name="tbScore" Text="000000"  HorizontalAlignment="Right" Style="{StaticResource tbMainWindow}" />
+            <Label Content="LEVEL" Style="{StaticResource lbSparta}"/>
+            <TextBlock x:Name="tbLevel" Text="000" HorizontalAlignment="Right" Style="{StaticResource tbMainWindow}"/>
+            <Label Content="LINES" Style="{StaticResource lbSparta}" />
+            <TextBlock Text="000" x:Name="tbLines" HorizontalAlignment="Right" Style="{StaticResource tbMainWindow}"/>
+            <Label Content="HELP" Height="56" Style="{StaticResource lbSparta}"/>
+            <Label Height="40" FontSize="15" Foreground="White">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="LEFT" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Image Width="35" Height="35" Source="resources/images/arrow-left-icon.png" Stretch="Fill"/>
+                </StackPanel>
+            </Label>
+            <Label Height="40" FontSize="15" Foreground="White">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="RIGHT" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Image Width="35" Height="35" Source="resources/images/arrow-right-icon.png" Stretch="Fill"/>
+                </StackPanel>
+            </Label>
+            <Label Height="40" FontSize="15" Foreground="White">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="UP" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Image Width="35" Height="35" Source="resources/images/arrow-up-icon.png" Stretch="Fill"/>
+                </StackPanel>
+            </Label>
+            <Label Height="40" FontSize="15" Foreground="White">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="DOWN" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Image Width="35" Height="35" Source="resources/images/arrow-down-icon.png" Stretch="Fill"/>
+                </StackPanel>
+            </Label>
+            <Label Height="40" FontSize="15" Foreground="White">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="PAUSE" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Image Width="35" Height="35" Source="resources/images/letter-p-icon.png" Stretch="Fill"/>
+                </StackPanel>
+            </Label>
+            <Label Height="40" FontSize="15" Foreground="White">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="RESTART" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Image Width="35" Height="35" Source="resources/images/letter-r-icon.png" Stretch="Fill"/>
+                </StackPanel>
+            </Label>
+            <Label Height="40" FontSize="15" Foreground="White">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="QUIT" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Image Width="35" Height="35" Source="resources/images/esc-icon.png" Stretch="Fill" />
+                </StackPanel>
+            </Label>
+        </StackPanel>
+        <!-- Game Grid -->
+        <Grid Name="theGrid" Height="570" Width="250">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+        </Grid>
+    </DockPanel>
+</Window>

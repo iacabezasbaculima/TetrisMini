@@ -1,2 +1,1 @@
-# TetrisMini
-TetrisMini WPF C#
+# Project1MiniGame
