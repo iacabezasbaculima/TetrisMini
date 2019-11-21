@@ -34,7 +34,7 @@
             </Label>
             <Label Height="40" FontSize="15" Foreground="White">
                 <StackPanel Orientation="Horizontal">
-                    <Label Content="UP" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
+                    <Label Content="ROTATE" Width="100" Foreground="#FFFDFDFD" FontWeight="ExtraBold"/>
                     <Image Width="35" Height="35" Source="resources/images/arrow-up-icon.png" Stretch="Fill"/>
                 </StackPanel>
             </Label>
