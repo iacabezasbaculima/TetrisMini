@@ -26,4 +26,8 @@ If the user does not meet the requirements to submit a new highscore, a simple m
 - Save and view TOP 5 highscores table locally
 - Play Tetris theme song
 
+## Gameplay Demo   
+
+[![TetrisMini](http://img.youtube.com/vi/Ju740SLPx7w/0.jpg)](http://www.youtube.com/watch?v=Ju740SLPx7w "TetrisMini Demo")
+
 **GOOD LUCK AND HAPPY PLAYING!**
