@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Isaac Baculima\Engineering45\Week4\Project 1\MiniGame\MiniGame\obj\Release\
+C:\Users\Isaac Baculima\source\repos\TetrisMini\MiniGame\obj\Release\
 MiniGame
 none
 false
 TRACE
-C:\Users\Isaac Baculima\Engineering45\Week4\Project 1\MiniGame\MiniGame\App.xaml
+C:\Users\Isaac Baculima\source\repos\TetrisMini\MiniGame\App.xaml
 4-927199036
 1905846699
 12382730024
-19-118917154
+1722313304
 LoseWindow.xaml;MainWindow.xaml;ScoreboardWindow.xaml;StartWindow.xaml;
 
-True
+False
 
